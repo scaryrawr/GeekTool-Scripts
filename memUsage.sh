@@ -19,5 +19,6 @@ do
     echo -ne "\n——"
     m=`expr ${m} + 5`
 done
+echo ""
 unset memUsage
 unset m

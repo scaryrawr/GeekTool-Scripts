@@ -20,6 +20,7 @@ then
         echo -ne "\033[1;30m|"
         a=`expr ${a} + 5`
     done
+    echo ""
     unset songMeter
     unset a
 fi

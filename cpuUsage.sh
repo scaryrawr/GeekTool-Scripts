@@ -20,5 +20,6 @@ do
     echo -ne "\n––––"
     c=`expr ${c} + 5`
 done
+echo ""
 unset cpuUsage
 unset c
