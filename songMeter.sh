@@ -1,6 +1,6 @@
 #!/usr/local/bin/bash
 #   Get the current song using the script to grab from itunes.
-songMeter=`osascript /Users/michael/Projects/GeekTool\ Scripts/SongMeter.scpt`
+songMeter=`osascript /Users/michael/Projects/GeekTool-Scripts/SongMeter.scpt`
 
 if [ ${songMeter} != "" ] 
 then
