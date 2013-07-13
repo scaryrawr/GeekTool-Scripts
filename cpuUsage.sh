@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/bin/env bash
 
 cpuUsage=`top -l 2 -F -R | awk '/CPU usage/ && NR > 5 {printf "%d", $7+0}'`
 #cpuUsage=`expr 100 - ${cpuUsage}`

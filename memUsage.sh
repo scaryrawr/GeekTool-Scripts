@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/bin/env bash
 
 #   Get the memory in use.
 memUsage=`top -l 1 | awk '/PhysMem/ {printf "%d", $8}'`

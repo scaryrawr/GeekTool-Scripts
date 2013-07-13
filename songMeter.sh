@@ -1,8 +1,9 @@
-#!/usr/local/bin/bash
+#!/usr/bin/env sh
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"
 #   Get the current song using the script to grab from itunes.
-songMeter=`osascript /Users/michael/Projects/GeekTool-Scripts/SongMeter.scpt`
+songMeter=`osascript ${dir}/SongMeter.scpt`
 
-if [ ${songMeter} != "" ] 
+if [ "${songMeter}" != "" ] 
 then
     songMeter=`expr 100 - ${songMeter}`
     a=5
